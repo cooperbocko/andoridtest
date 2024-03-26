@@ -1,0 +1,12 @@
+Schema:
+CREATE TABLE countries (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    continent TEXT
+)
+
+CREATE TABLE quizzes (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT,
+    result INTEGER
+)
